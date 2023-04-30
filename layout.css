@@ -1,0 +1,60 @@
+body {
+  width: 1000px;
+  margin: 0 auto; /*Centres the page*/
+}
+
+header {
+  width: 260px;
+  height: 180px;
+  float: left;
+  border: 1px solid;
+}
+
+nav {
+  width: 736px;
+  height: 180px;
+  float: left;
+  border: 1px solid;
+}
+
+#subnav {
+  width: 200px;
+  height: 400px;
+  float: left;
+  border: 1px solid;
+}
+
+/*Banner box*/
+#banner_box {
+  width: 796px;
+  height: 400px;
+  float: left;
+  border: 1px solid;
+  position: relative;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/*About us box*/
+#about_us_box {
+  width: 917.5px;
+  height: 325px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid none;
+}
+
+/*Main container*/
+#main_container {
+  width: 997.5px;
+  float: left;
+  border: 1px solid;
+}
+
+footer {
+  width: 997.5px;
+  float: left;
+  border: 1px solid;
+}

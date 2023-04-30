@@ -1,0 +1,278 @@
+/*Style for the website*/
+body {
+  color: #c5a78f;
+}
+header {
+  background: #c5a78f;
+}
+
+/*Control main nav*/
+.ul_horizontal {
+  list-style-type: none;
+  padding-top: 133px;
+  padding-left: 50px;
+  background-color: #c5a78f;
+  float: right;
+  margin: auto;
+}
+
+.li_horizontal {
+  display: block;
+}
+
+.a_horizontal {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 128px;
+  height: 20px;
+}
+
+.li_horizontal {
+  float: left;
+}
+
+.li_horizontal:hover {
+  background-color: #8e7467;
+}
+
+/*Style for dropdown content*/
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_content a:hover {
+  background-color: #f1f1f1;
+}
+
+/*Link dropdown to detached*/
+#detached_button:hover #detached_dropdown {
+  display: block;
+}
+
+/*Link dropdown to semi-detached*/
+#semi_detached_button:hover #semi_detached_dropdown {
+  display: block;
+}
+
+/*Link dropdown to terraced*/
+#terraced_button:hover #terraced_dropdown {
+  display: block;
+  left: 100%;
+  top: 0;
+}
+
+/*Link dropdown to bungalow*/
+#bungalow_button:hover #bungalow_dropdown {
+  display: block;
+  left: 100%;
+  top: 0;
+}
+
+/*Link dropdown to flat*/
+#flat_button:hover #flat_dropdown {
+  display: block;
+  left: 100%;
+  top: 0;
+}
+
+/*Control subnav*/
+.ul_vertical {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #c5a78f;
+}
+
+.li_vertical {
+  position: relative;
+}
+
+.a_vertical {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*Change the link color on hover*/
+.a_vertical:hover {
+  background-color: #8e7467;
+}
+
+/*Top left text*/
+.top-left {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 325px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  font-family: "Abhaya Libre", serif;
+  font-size: 50px;
+  background-color: #8e7467;
+}
+
+/*Style for all product boxes*/
+.product_box {
+  display: inline-block;
+  width: 304px;
+  margin: 5px;
+  border: 1px solid white;
+}
+
+/*Style for the image*/
+.image_box {
+  width: 300px;
+  height: 300px;
+  margin: 1px;
+  background: #c5a78f;
+  border: 1px solid white;
+}
+
+/*Style for the description*/
+.description_box {
+  color: white;
+  height: 125px;
+  float: left;
+  margin: 1px;
+  text-align: center;
+  background: #8e7467;
+  border: 1px solid white;
+}
+
+/* Slideshow container */
+.slideshow_container {
+  max-width: 304px;
+  height: 304px;
+  margin: 15px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*Frame style for the form and agency details*/
+.frame {
+  width: 956px;
+  padding-left: 40px;
+  float: left;
+  border: 1px solid none;
+}
+
+/*Text colour for the feedback form*/
+.frame {
+  color: white;
+}
+
+/*Contact us table style for the agency details*/
+
+.contact {
+  float: left;
+  width: 300px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+form {
+  width: 500px;
+  float: left;
+  margin: 0px;
+  padding: 20px;
+}
+
+#question {
+  width: 150px;
+  float: left;
+}
+
+#input {
+  width: 350px;
+  float: left;
+}
+
+#map {
+  width: 916px;
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  border: 1px solid;
+}
